@@ -105,3 +105,19 @@ footer img {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
 }
+@media only screen and (max-width: 1024px){
+  .container {
+    width: 100%;
+  }
+  .main-banner {
+    height: 22rem;
+    padding-top: 0;
+  }
+  .container .headline {
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  headline h1 {
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+}
