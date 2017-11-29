@@ -36,6 +36,9 @@ nav ul{
   display: flex;
   align-items: center;
 }
+nav .mobile {
+  display: none;
+}
 nav li {
   margin: 1rem 2rem 1rem 0;
 }
@@ -120,4 +123,64 @@ footer img {
   headline h1 {
     font-size: 1.33rem;
     padding: 0.75rem 4rem;
+}
+@media only screen and (max-width: 470px) {
+  .container {
+    width: 100%;
+  }
+  .main-banner {
+    background-position: 20%;
+    height: 17rem;
+  }
+  .logo span {
+    display: none;
+  }
+  nav ul {
+    display: none;
+  }
+  nav .mobile {
+    display: flex;
+    align-items: center;
+  }
+  .container .headline {
+    justify-content: center;
+    width: 100%;
+    margin-top: 9rem;
+    margin-right: 0;
+  }
+  .headline h1 {
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .products {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /*margin-top: 3.77rem;
+    margin-bottom: 3.77rem;*/
+  }
+  .company-info .container {
+    flex-direction: column;
+  }
+  .info {
+    width: 100%;
+    margin: auto;
+  }
+  .info h3 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .info p {
+    font-size: 0.77rem;
+    margin: 1rem auto 4rem auto;
+  }
+  footer .container {
+    justify-content: center;
+  }
+  footer span {
+    display: none;
+  }
 }
